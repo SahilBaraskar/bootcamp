@@ -1,4 +1,4 @@
-# Bootcamper API [![Build Status](https://travis-ci.org/dipanshuchaubey/bootcamp-api.svg?branch=master)](https://travis-ci.org/dipanshuchaubey/bootcamp-api)
+# BootcampMongo API
 
 API for bootcamps. Manage a full Bootcamp application using featues like:
 
