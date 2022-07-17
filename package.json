@@ -1,0 +1,41 @@
+{
+  "name": "bootcamp-api",
+  "version": "1.0.0",
+  "description": "Devcamper API",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=production & node server",
+    "dev": "nodemon server",
+    "test": "jest",
+    "doc": "jsdoc -c jsdoc.json"
+  },
+  "author": "Sahil",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.9",
+    "express-mongo-sanitize": "^1.3.2",
+    "express-rate-limit": "^5.5.1",
+    "helmet": "^3.21.2",
+    "hpp": "^0.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.9",
+    "morgan": "^1.9.1",
+    "node-geocoder": "^3.28.0",
+    "nodemailer": "^6.4.16",
+    "slugify": "^1.6.4",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^27.4.5",
+    "jsdoc": "^3.6.3",
+    "nodemon": "^2.0.15"
+  }
+}
